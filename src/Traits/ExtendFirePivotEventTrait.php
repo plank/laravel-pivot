@@ -2,7 +2,7 @@
 
 namespace Fico7489\Laravel\Pivot\Traits;
 
-trait ExtendFireModelEventTrait
+trait ExtendFirePivotEventTrait
 {
     /**
      * Fire the given event for the model.
@@ -12,7 +12,7 @@ trait ExtendFireModelEventTrait
      *
      * @return mixed
      */
-    public function fireModelEvent($event, $halt = true, $relationName = null, $ids = [], $idsAttributes = [])
+    public function firePivotEvent($event, $halt = true, $relationName = null, $ids = [], $idsAttributes = [])
     {
         if (!isset(static::$dispatcher)) {
             return true;

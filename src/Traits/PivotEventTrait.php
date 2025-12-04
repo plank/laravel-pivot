@@ -5,7 +5,7 @@ namespace Fico7489\Laravel\Pivot\Traits;
 trait PivotEventTrait
 {
     use ExtendRelationsTrait;
-    use ExtendFireModelEventTrait;
+    use ExtendFirePivotEventTrait;
 
     /**
      * Get the observable event names.

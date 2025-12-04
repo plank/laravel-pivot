@@ -537,7 +537,8 @@ class PivotEventTraitTest extends TestCase
         $user->update(['name' => 'new_name']);
 
         $eventName = 'eloquent.updating: '.User::class;
-        $this->check_variables(0, [], [], null);
+
+        $this->assertCount(2, self::$events[0]);
     }
 
     private function check_events($events)
