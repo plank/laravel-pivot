@@ -8,10 +8,10 @@
         "laravel sync events",
         "eloquent events"
     ],
-    "homepage": "https://github.com/fico7489/laravel-pivot",
+    "homepage": "https://github.com/plank/laravel-pivot",
     "support": {
-        "issues": "https://github.com/fico7489/laravel-pivot/issues",
-        "source": "https://github.com/fico7489/laravel-pivot"
+        "issues": "https://github.com/plank/laravel-pivot/issues",
+        "source": "https://github.com/plank/laravel-pivot"
     },
     "license": "MIT",
     "authors": [
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fico7489\\Laravel\\Pivot\\": "src"
+            "Plank\\Laravel\\Pivot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fico7489\\Laravel\\Pivot\\Tests\\": "tests/"
+            "Plank\\Laravel\\Pivot\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",

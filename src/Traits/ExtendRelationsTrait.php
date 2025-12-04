@@ -1,9 +1,9 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Traits;
+namespace Plank\Laravel\Pivot\Traits;
 
-use Fico7489\Laravel\Pivot\Relations\BelongsToManyCustom;
-use Fico7489\Laravel\Pivot\Relations\MorphToManyCustom;
+use Plank\Laravel\Pivot\Relations\BelongsToManyCustom;
+use Plank\Laravel\Pivot\Relations\MorphToManyCustom;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 

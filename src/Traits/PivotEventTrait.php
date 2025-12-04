@@ -1,6 +1,6 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Traits;
+namespace Plank\Laravel\Pivot\Traits;
 
 trait PivotEventTrait
 {
